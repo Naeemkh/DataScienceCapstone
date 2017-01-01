@@ -36,9 +36,7 @@ server <- function(input, output) {
     wordcloud(words = predicted.words$ngram, freq = ceiling(predicted.words$prob*200), min.freq = 1,
               max.words=Inf, random.order=FALSE, rot.per=0.35, 
               colors=brewer.pal(8, "Dark2")) 
-    
-    
-  })
+     })
   
   output$accT <-   renderPlot({
     
@@ -47,13 +45,7 @@ server <- function(input, output) {
     wordcloud(words = predicted.words$ngram, freq = ceiling(predicted.words$prob*200), min.freq = 1,
               max.words=Inf, random.order=FALSE, rot.per=0.35, 
               colors=brewer.pal(8, "Dark2")) 
-    
-    
-  })
-  
-  
-  
-  
+    })
   
   
   getPage<-function() {

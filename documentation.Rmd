@@ -23,7 +23,7 @@ Here are the related linkes:
 <a href="https://github.com/Naeemkh/DataScienceCapstone"> Github Repository </a> \ \
 <a href="https://rawgit.com/Naeemkh/DataScienceCapstone/master/FirstReport.html"> Milestone Report </a> \
 <a href="https://rawgit.com/Naeemkh/DataScienceCapstone/master/full_documentation.html"> Final Report </a> \
-<a href=""> Product Slid Deck </a> \
+<a href="http://rpubs.com/NaeemPub/238951"> Product Slide Deck </a> \
 
 
 

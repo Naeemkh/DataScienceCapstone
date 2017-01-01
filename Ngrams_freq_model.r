@@ -82,7 +82,7 @@ mergeNgrams <- function(allngrams){
 length(sampled_data_10)
 
 index.2 <- 0
-last.step <- 500
+last.step <- 1
 for (i in 1:last.step){
   print(paste("Step: ",i," out of :", last.step))
   index.1  <- index.2+1
@@ -141,7 +141,7 @@ write.table(allpentagrams,file = "Epentagrams.txt", sep = " ",
 
 
 
-# > length(sampled_data_10)
+# > length(sampled_data_10) (Engrams)
 # [1] 3842709 (90 % of data)
 # > 500000/3842709*0.9
 # [1] 0.1171049 of total data 
