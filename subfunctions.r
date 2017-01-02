@@ -2,11 +2,11 @@
 library(stringi)
 
 # Load ngrams1
-unigrams <- read.table("Eunigrams_2.txt", header = TRUE)
-bigrams  <- read.table("Ebigrams_2.txt", header = TRUE)
-trigrams <- read.table("Etrigrams_2.txt", header = TRUE)
-tetragrams <- read.table("Etetragrams_2.txt", header = TRUE)
-pentagrams <- read.table("Epentagrams_2.txt", header = TRUE)
+unigrams <- read.table("unigrams_total_2.txt", header = TRUE)
+bigrams  <- read.table("bigrams_total_2.txt", header = TRUE)
+trigrams <- read.table("trigrams_total_2.txt", header = TRUE)
+tetragrams <- read.table("tetragrams_total_2.txt", header = TRUE)
+pentagrams <- read.table("pentagrams_total_2.txt", header = TRUE)
 
 
 # ------------------------- Sub functions -----------------------
